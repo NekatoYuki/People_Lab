@@ -5,10 +5,13 @@ public class Runner
 	public static void main(String[] args) 
 	{
 		String students [] = new String[10];
-		Person Teacher;
+		Person Teacher = new Teacher();
+		
+		Classroom newclassroom = new Classroom(String students [], teacher);
+		
 		System.out.println(students);
-		System.out.println(classroom.Classroom());
-		System.out.println(classroom.classAverage());
+		System.out.println(newclassroom.());
+		System.out.println(newclassroom.classAverage());
 	}
 
 
