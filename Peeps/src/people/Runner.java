@@ -7,7 +7,8 @@ public class Runner
 		String students [] = new String[10];
 		Person Teacher;
 		System.out.println(students);
-		
+		System.out.println(classroom.Classroom());
+		System.out.println(classroom.classAverage());
 	}
 
 
@@ -22,16 +23,6 @@ public class Runner
 public String randomStudent() 
 	{
 	return Student.class.getName() + Student.getGPA();	
-	}
-
-public static void main(String[] args)
-	{
-		Person Teacher = new teacher();
-		
-		
-		
-		System.out.println(Classroom.Classroom());
-		System.out.println(Classroom.classAverage());
 	}
 
 }
