@@ -5,7 +5,7 @@ public class Runner
 	public static void main(String[] args) 
 	{
 		String students [] = new String[10];
-		Person Teacher = new Teacher();
+		Person Teacher = new Teacher(firstNames, familyNames, title);
 		Classroom classAverage = new classAverage;
 		
 		System.out.println(students);
