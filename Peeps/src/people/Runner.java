@@ -24,4 +24,14 @@ public String randomStudent()
 	return Student.class.getName() + Student.getGPA();	
 	}
 
+public static void main(String[] args)
+	{
+		Person Teacher = new teacher();
+		
+		
+		
+		System.out.println(Classroom.Classroom());
+		System.out.println(Classroom.classAverage());
+	}
+
 }
