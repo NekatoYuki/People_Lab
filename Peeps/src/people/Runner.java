@@ -6,12 +6,11 @@ public class Runner
 	{
 		String students [] = new String[10];
 		Person Teacher = new Teacher();
-		
-		Classroom newclassroom = new Classroom(String students [], teacher);
+		Classroom classAverage = new classAverage;
 		
 		System.out.println(students);
-		System.out.println(newclassroom.());
-		System.out.println(newclassroom.classAverage());
+		System.out.println(Teacher);
+		System.out.println(classAverage);
 	}
 
 
